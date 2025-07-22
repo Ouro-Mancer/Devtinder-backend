@@ -4,7 +4,7 @@ import express from 'express';
 const app = express();
 
 app.use((req, res) => {
-    res.send("Hello from node js...!");
+    res.send("Hello Node js...!");
 })
 
 app.listen(3000, () => {
